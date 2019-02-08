@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>random by eth</title>
+    <link rel="stylesheet" href="../res/initial.css">
+    <script src="../res/block.js"></script>
+    <script src="../res/common.js"></script>
+
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="table block-info">
+        <div class="row">
+            <div class="title">当前区块高度: </div>
+            <div class="value" id="block-height">查询中...</div>
+        </div>
+        <div class="row">
+            <div class="title">当前区块Hash: </div>
+            <div class="value" id="block-hash">查询中...</div>
+        </div>
+        <div class="row">
+            <div class="title">当前区块时间: </div>
+            <div class="value" id="block-time">查询中...</div>
+        </div>
+    </div>
+    <hr>
+    <form class="table lottery-info" action="../open" method="get" >
+        <div class="row">
+            <div class="title">开奖距离: </div>
+            <div class="value">
+                <input class="ipt-info" name="opennum" type="number" placeholder="开奖区块" value="5">
+            </div>
+        </div>
+        <div class="row">
+            <div class="title">开奖范围: </div>
+            <div class="value">
+                <input class="ipt-info" name="max" type="number" placeholder="开奖最大值" value="100">
+            </div>
+        </div>
+        <div class="row">
+            <div class="title">开奖个数: </div>
+            <div class="value">
+                <input class="ipt-info" name="num" type="number" placeholder="开奖个数" value="1">
+            </div>
+        </div>
+        <div class="row">
+            <button class="btn-info" id="lottery-submit">开始抽奖</button>
+        </div>
+        <div class="row">
+            <a href="../show">查询中奖情况</a>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body {width: 800px;}
+
+.head span{margin-left: 0.1em; font-size: 3em; color: #2288FF; word-break: break-all;}
+
+.block-info {margin-top: 20px;}
+.block-info table {width: 100%; text-align: center; border-color: #F2F2F2;}
+.block-info table tr span{display: inline-block; padding: 3px 10px; word-break: break-all;}
+.block-info table tr.final{animation: gettarget 3s infinite;}
+.block-info table tr.loading{text-align: left;}
+.block-info table tr.loading ::after{content: "loading...."; padding: 3px 10px; color: #FFF; background-color: #2288FF; display: inline-block; animation: loading 10s linear infinite;}
+#open-height{color: #FF22BB;}
+
+@keyframes loading{
+    0% {width: 100px;}
+    25% {width: 50%;}
+    50% {width: 100%;}
+    75% {width: 50%;}
+    100% {width: 100px;}
+}
+
+@keyframes gettarget{
+    0% {background-color: #f00;}
+    25% {background-color: #0f0;}
+    50% {background-color: #00f;}
+    75% {background-color: #0f0;}
+    100% {background-color: #f00;}
+}

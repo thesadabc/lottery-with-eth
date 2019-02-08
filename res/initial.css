@@ -1,0 +1,10 @@
+*, ::after{box-sizing: border-box;}
+body{margin: 0 auto;}
+hr{margin: 0}
+h1, h2, h3{margin: 0;}
+
+.table{padding: 10px;}
+.table .row{line-height: 2.5em; word-break: break-all;}
+.table .row + .row{clear: both;}
+.table .title{margin-right: 10px;float: left; text-align: right;}
+.table .value{padding: 0 5px; overflow: hidden;}

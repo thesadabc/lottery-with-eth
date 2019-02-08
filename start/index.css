@@ -1,0 +1,5 @@
+body{width: 400px;}
+
+.lottery-info .ipt-info{width: 100%; padding: 1.5px 10px; line-height: 2em;}
+.lottery-info .btn-info{width: 200px; margin-top: 10px; line-height: 3em; background-color: #3598F8; color: #FFFFFF; cursor: pointer;}
+.lottery-info .btn-info:hover{background-color: #2288FF;}

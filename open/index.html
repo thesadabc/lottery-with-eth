@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>random by eth</title>
+    <link rel="stylesheet" href="../res/initial.css">
+    <script src="../res/block.js"></script>
+    <script src="../res/md5.min.js"></script>
+    <script src="../res/common.js"></script>
+    <script src="../res/random.js"></script>
+
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <p class="head">当前区块高度:<span id="cblock-height">加载中...</span>, 当前区块Hash:<span id="cblock-hash">加载中...</span>, 当前区块时间:<span id="cblock-time">加载中...</span>, 开奖区块高度:<span id="open-height">加载中...</span>, 开奖号码范围:<span id="open-max">加载中...</span>, 开奖号码个数:<span id="open-num">加载中...</span></p>
+    <hr>
+    <div class="block-info">
+        <table id="tb-block-info" border="1" cellspacing="0" cellpadding="5">
+            <thead>
+                <tr>
+                    <th><span>区块高度</span></th>
+                    <th><span>区块时间</span></th>
+                    <th><span>区块hash</span></th>
+                    <th><span>开奖结果</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="loading"><td colspan="4"></td></tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

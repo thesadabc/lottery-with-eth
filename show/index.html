@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>random by eth</title>
+    <link rel="stylesheet" href="../res/initial.css">
+    <script src="../res/block.js"></script>
+    <script src="../res/md5.min.js"></script>
+    <script src="../res/common.js"></script>
+    <script src="../res/random.js"></script>
+
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <form class="table lottery-info" action="." method="get" >
+        <div class="row">
+            <div class="title">开奖高度: </div>
+            <div class="value">
+                <input class="ipt-info" name="height" type="number" placeholder="开奖区块">
+            </div>
+        </div>
+        <div class="row">
+            <div class="title">开奖范围: </div>
+            <div class="value">
+                <input class="ipt-info" name="max" type="number" placeholder="开奖最大值">
+            </div>
+        </div>
+        <div class="row">
+            <div class="title">开奖个数: </div>
+            <div class="value">
+                <input class="ipt-info" name="num" type="number" placeholder="开奖个数">
+            </div>
+        </div>
+        <div class="row">
+            <button class="btn-info">查看结果</button>
+        </div>
+    </form>
+    <hr>
+    <div class="table winning-info">
+        <div class="row">
+            <div class="title">区块高度: </div>
+            <div class="value" id="block-height">加载中...</div>
+        </div>
+        <div class="row">
+            <div class="title">区块Hash: </div>
+            <div class="value" id="block-hash">加载中...</div>
+        </div>
+        <div class="row">
+            <div class="title">区块时间: </div>
+            <div class="value" id="block-time">加载中...</div>
+        </div>
+        <div class="row">
+            <div class="title">开奖结果: </div>
+            <div class="value" id="open-winning">加载中...</div>
+        </div>
+    </div>
+</body>
+</html>
