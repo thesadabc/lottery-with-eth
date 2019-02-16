@@ -8,3 +8,5 @@ h1, h2, h3{margin: 0;}
 .table .row + .row{clear: both;}
 .table .title{margin-right: 10px;float: left; text-align: right;}
 .table .value{padding: 0 5px; overflow: hidden;}
+
+.footer{padding: 10px; text-align: center;}
